@@ -6,6 +6,9 @@
   .link{
     @apply cursor-pointer text-white font-semibold text-sm hover:underline
   }
+  .icon {
+    @apply h-6 text-[#b9bbbe] cursor-pointer hover:text-[#dcddde];
+  }
 }
 body{
   overflow: hidden;

@@ -9,12 +9,10 @@ const Header = () => {
 
   const navigate=useNavigate();
   const [user]=useAuthState(auth);
-  console.log(user)
   const signIn=(e)=>{
     e.preventDefault()
     auth.signInWithPopup(provider)
     .then(() => {
-      console.log(user)
       navigate("/channels")
     })
     .catch((error) => {
