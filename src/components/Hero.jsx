@@ -4,7 +4,7 @@ import rightimage from "../assets/rightimage.svg"
 const Hero = () => {
   return (
     <div className="bg-discord_blue  ">
-      <div className="p-7  flex flex-col lg:justify-center lg:items-center overflow-hidden ">
+      <div className="p-7  flex flex-col lg:justify-center lg:items-center overflow-y-hidden">
         <div className="flex flex-col gap-7 md:max-w-md lg:max-w-xl lg:items-center ">
           <h1 className="font-extrabold text-white md:max-w-2xl text-2xl sm:text-3xl md:text-5xl  ">
             IMAGINE A PLACE...
